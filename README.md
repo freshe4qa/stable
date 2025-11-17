@@ -23,7 +23,7 @@ Explorer:
  - Ubuntu 22.04
 
 
-## Set up your artela fullnode
+## Set up your stable fullnode
 ```
 wget https://raw.githubusercontent.com/freshe4qa/stable/main/stable.sh && chmod +x stable.sh && ./stable.sh
 ```
