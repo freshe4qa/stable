@@ -21,3 +21,21 @@ Explorer:
  - 1TB of storage (SSD or NVME)
 
  - Ubuntu 22.04
+
+
+## Set up your artela fullnode
+```
+wget https://raw.githubusercontent.com/freshe4qa/stable/main/stable.sh && chmod +x stable.sh && ./stable.sh
+```
+
+## Post installation
+
+When installation is finished please load variables into system
+```
+source $HOME/.bash_profile
+```
+
+Synchronization status:
+```
+stabled status
+```
