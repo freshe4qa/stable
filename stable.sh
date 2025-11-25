@@ -57,9 +57,9 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.profile
 source .profile
 
 # download binary
-wget -O stabled-1.1.1-linux-amd64-testnet.tar.gz \
-  https://stable-testnet-data.s3.us-east-1.amazonaws.com/stabled-1.1.1-linux-amd64-testnet.tar.gz
-tar -xvzf stabled-1.1.1-linux-amd64-testnet.tar.gz
+wget -O stabled-1.1.2-linux-amd64-testnet.tar.gz \
+  https://stable-testnet-data.s3.us-east-1.amazonaws.com/stabled-1.1.2-linux-amd64-testnet.tar.gz
+tar -xvzf stabled-1.1.2-linux-amd64-testnet.tar.gz
 sudo mv stabled /usr/bin/
 stabled version
 
